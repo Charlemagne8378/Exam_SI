@@ -1,0 +1,9 @@
+[submodule "billing-service"]
+	path = billing-service
+	url = .\\billing-service\\
+[submodule "content-service"]
+	path = content-service
+	url = .\\content-service\\
+[submodule "notification-serevice"]
+	path = notification-serevice
+	url = .\\notification-serevice\\
