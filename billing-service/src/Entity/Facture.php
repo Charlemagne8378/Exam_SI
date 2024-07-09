@@ -2,12 +2,12 @@
 
 namespace App\Entity;
 
-use App\Repository\BillingRepository;
+use App\Repository\FactureRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: BillingRepository::class)]
-class Billing
+#[ORM\Entity(repositoryClass: FactureRepository::class)]
+class Facture
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
